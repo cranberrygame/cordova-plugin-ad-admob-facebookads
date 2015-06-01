@@ -39,6 +39,7 @@
         <framework src="CoreMotion.framework"/>
         <source-file src="src/ios/libAdapterFacebook.a" framework="true"/>		
 	</platform>
-
+<!--
 	<dependency id="com.cranberrygame.cordova.plugin.ad.admob" url="https://github.com/cranberrygame/cordova-plugin-ad-admob" />
+-->
 </plugin>
