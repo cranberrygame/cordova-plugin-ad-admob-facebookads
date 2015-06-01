@@ -27,8 +27,8 @@
         </config-file>
           
         <source-file src="src/android/AudienceNetwork.jar" target-dir="libs" />
-		<dependency id="android.support.v4@1.0.0">
-        <source-file src="src/android/FacebookAdapter.jar" target-dir="libs" />		
+		<dependency id="android.support.v4@1.0.0" />
+		<source-file src="src/android/FacebookAdapter.jar" target-dir="libs" />
      </platform>
      
      <!-- ios -->
