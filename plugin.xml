@@ -17,6 +17,9 @@
 	
     <!-- android -->
     <platform name="android">
+		<source-file src="src/android/FacebookAdapter.jar" target-dir="libs" />
+			
+		<!-- dependency -->
         <config-file target="AndroidManifest.xml" parent="/manifest/application">
 			<activity android:name="com.facebook.ads.InterstitialAdActivity" 
 			android:configChanges="keyboardHidden|orientation|screenSize" />
@@ -24,22 +27,22 @@
         <config-file target="AndroidManifest.xml" parent="/*">
 			  <uses-permission android:name="android.permission.INTERNET" />
 			  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-        </config-file>
-          
+        </config-file>          
         <source-file src="src/android/AudienceNetwork.jar" target-dir="libs" />
 		<dependency id="android.support.v4@1.0.0" />
-		<source-file src="src/android/FacebookAdapter.jar" target-dir="libs" />
      </platform>
      
      <!-- ios -->
      <platform name="ios">
+	    <source-file src="src/ios/libAdapterFacebook.a" framework="true"/>
+			 
+		<!-- dependency -->
         <framework src="src/ios/FBAudienceNetwork.framework" custom="true"/>
         <framework src="AdSupport.framework"/>
         <framework src="StoreKit.framework"/>
-        <framework src="CoreMotion.framework"/>
-        <source-file src="src/ios/libAdapterFacebook.a" framework="true"/>		
+        <framework src="CoreMotion.framework"/>		
 	</platform>
-<!--
-	<dependency id="com.cranberrygame.cordova.plugin.ad.admob" url="https://github.com/cranberrygame/cordova-plugin-ad-admob" />
--->
+	
+	<!-- dependency -->
+	<dependency id="com.cranberrygame.cordova.plugin.ad.admob" url="https://github.com/cranberrygame/cordova-plugin-ad-admob" />	
 </plugin>
