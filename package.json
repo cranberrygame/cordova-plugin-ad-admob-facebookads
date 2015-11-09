@@ -1,0 +1,40 @@
+{
+  "name": "cordova-plugin-ad-admob-facebookads",
+  "version": "1.0.23",
+  "description": "Cordova Admob-FacebookAds Mediation Plugin",
+  "cordova": {
+    "id": "cordova-plugin-ad-admob-facebookads",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cranberrygame/cordova-plugin-ad-admob-facebookads.git"
+  },
+  "keywords": [
+    "cordova",
+    "plugin",
+    "ad",
+    "admob",
+    "monetisation",
+    "facebookads",
+    "mediation",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "author": "cranberrygame",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cranberrygame/cordova-plugin-ad-admob-facebookads/issues"
+  },
+  "homepage": "https://github.com/cranberrygame/cordova-plugin-ad-admob-facebookads#readme"
+}

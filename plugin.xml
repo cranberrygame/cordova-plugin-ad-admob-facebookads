@@ -2,7 +2,7 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android"
     id="cordova-plugin-ad-admob-facebookads"
-    version="1.0.22">
+    version="1.0.23">
 	
     <name>Cordova Admob-FacebookAds Mediation Plugin</name>
     <description>Cordova Admob-FacebookAds Mediation Plugin</description>
@@ -29,7 +29,10 @@
 			  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
         </config-file>          
         <source-file src="src/android/AudienceNetwork.jar" target-dir="libs" />
+<!--		
 		<dependency id="android.support.v4@1.0.0" />
+-->
+		<dependency id="cordova-plugin-extras-android-support-library-v4" />		
      </platform>
      
      <!-- ios -->
